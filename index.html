@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in & Sign up Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="box">
+      <div class="inner-box">
+        <div class="forms-wrap">
+          <form action="index.html" autocomplete="off" class="sign-in-form">
+            <div class="logo">
+              <img src="./img/logo.png" alt="subasta" />
+              <h4>SUBASTA</h4>
+            </div>
+
+            <div class="heading">
+              <h2>Welcome Back</h2>
+              <h6>Not registred yet?</h6>
+              <a href="#" class="toggle">Register</a>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input type="text" class="input-field" autocomplete="off" />
+                <label>Username</label>
+              </div>
+
+              <div class="input-wrap">
+                <input type="password" class="input-field" autocomplete="off" />
+                <label>Password</label>
+              </div>
+
+              <input type="submit" value="Login" class="sign-btn" />
+
+              <p class="text">
+                Forgotten your password or you login datails?
+                <a href="#">Get help</a> signing in
+              </p>
+            </div>
+          </form>
+
+          <form action="index.html" autocomplete="off" class="sign-up-form">
+            <div class="logo">
+              <img src="img/logo.png" alt="easyclass" />
+              <h4>SUBASTA</h4>
+            </div>
+
+            <div class="heading">
+              <h2>Get Started</h2>
+              <h6>Already have an account?</h6>
+              <a href="#" class="toggle">Login</a>
+            </div>
+
+            <div class="actual-form">
+              <div class="scrollableArea">
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" />
+                  <label>Name</label>
+                </div>
+                <div class="radio">
+
+                  <div>
+                    <p class="light">Profile&nbsp;:</p>
+                  </div>
+                  <div>
+                    <input type="radio" name="usernametype" id="public">
+                    <label class="radiolabl" for="public">Public</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="usernametype" id="anonymous">
+                    <label class="radiolabl" for="anonymous">Anonymous</label>
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" />
+                  <label>Username</label>
+                </div>
+                <div class="input-wrap">
+                  <input type="email" class="input-field" autocomplete="off" />
+                  <label>Email</label>
+                </div>
+                <div class="input-wrap">
+                  <input type="password" class="input-field" autocomplete="off" />
+                  <label>Password</label>
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" />
+                  <label>Phone number</label>
+                </div>
+                <div class="identity">
+                  <p class="light">Government id:</p>
+
+                  <div class="input-wrap">
+
+                    <select name="id" id="type-id">
+                      <option id="nd" value="">Select An Option</option>
+                      <option id="drk" value="Adhar-Card">Adhar Card</option>
+                      <option id="drk" value="Driving License">Drying License</option>
+                      <option id="drk" value="EPIC Card">Epic Card</option>
+                    </select>
+
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <input type="txt" class="input-field" autocomplete="off" placeholder="id-no:" />
+                </div>
+
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" />
+                  <label>Address</label>
+                </div>
+
+
+
+                <hr>
+
+                <div class="identify">
+                  <p class="light">Account Type:</p>
+                  <div class="input-wrap">
+                    <select name="addr" id="type-card">
+                      <option id="nd" value="">Select Card Option</option>
+                      <option id="drk" value="Credit Card">Credit Card</option>
+                      <option id="drk" value="Debit Card">Debit Card</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" id="card" autocomplete="off" placeholder="Card Holder Name " />
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" placeholder="Card Number" />
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" id="card" autocomplete="off" placeholder="Expiry Date " />
+                </div>
+                <div class="input-wrap">
+                  <input type="text" class="input-field" autocomplete="off" placeholder="IFSC Code" />
+                </div>
+
+              </div>
+            <!-- </div> -->
+
+            <input type="submit" value="Register" class="sign-btn" />
+
+            <p class="text">
+              By signing up, I agree to the
+              <a href="#">Terms of Services</a> and
+              <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+        </form>
+      </div>
+
+      <div class="carousel">
+        <div class="images-wrapper">
+          <img src="img/carousel1.png" class="image img-1 show" alt="" />
+          <img src="img/carousel2.png" class="image img-2" alt="" />
+          <img src="img/img3.png" class="image img-3" alt="" />
+        </div>
+
+        <div class="text-slider">
+          <div class="text-wrap">
+            <div class="text-group">
+              <h2>Real-time bidding auction platform.</h2>
+              <h2>Dynamic bidding,seamless transaction.</h2>
+              <h2>"Sleek auction excitement!"</h2>
+            </div>
+          </div>
+
+          <div class="bullets">
+            <span class="active" data-value="1"></span>
+            <span data-value="2"></span>
+            <span data-value="3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- Javascript file -->
+
+  <script src="app.js"></script>
+</body>
+
+</html>
